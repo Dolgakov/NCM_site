@@ -1,0 +1,23 @@
+---
+layout: default
+title: Equipment
+permalink: /equipment/
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Equipment</h1>
+  
+  <!--{{ content }}-->
+
+  <ul class="post-list">
+    {% for post in site.equipment %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
