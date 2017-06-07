@@ -18,7 +18,12 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
-        <p>{{ post.excerpt }}</p>
+
+        {% if post.image %}
+          <img src="{{ site.baseurl }}/images/posts_images/{{ post.image }}" width="400">
+        {% else %}
+          <p>{{ post.excerpt }}</p>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>

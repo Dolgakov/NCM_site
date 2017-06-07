@@ -3,8 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-Research and Education center (REC)“Physics of Nanocomposite Materials” (NCM) - is a structural subdivision of St.Petersburg State Polytechnical University, created in 2005 on the bases of research and education laboratory “Physics of nanocomposite materials of electronics” is a joint project of physical electronics department of Radio Physical Faculty SpbStu and Ioffe Physic-Technical Institute of Russian academy of Science and Petersburg Nuclear Physics Institute of Russian academy of Science. 
+*Research and Education center (REC) “Physics of Nanocomposite Materials” (NCM)* -- is a structural subdivision of St.Petersburg State Polytechnical University, created in 2005 on the bases of research and education laboratory *“Physics of nanocomposite materials of electronics”* is a joint project of physical electronics department of *Radio Physical Faculty SpbStu* and *Ioffe Physic-Technical Institute of Russian academy of Science* and *Petersburg Nuclear Physics Institute of Russian academy of Science.* 
 Major objective of REC is the investigation and development of new nanocomposite materials for electronic industry and specialist training capable of creating such materials and technologies single-handedly. Among the objective of laboratory was holding graduate students in sciences and research sector. 
 REC is a joint project of largest scientific and educational centers of region, which gives an opportunity for new coming students, Phd students and young members to participate in “Tomorrow’s objectives”.
 

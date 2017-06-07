@@ -3,8 +3,9 @@ layout: post
 title:  "Russia’s Scientific Competition"
 date:   2017-06-04 21:21:53 +0300
 category: posts
+image: David-Shapiro.jpg
 ---
-![image-title-here](http://www.esrf.eu/files/live/sites/www/files/about/press-room/2015_05_11_AERIAL-554.jpg)
+![image-title-here](/images/posts_images/David-Shapiro.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis, tellus eu semper varius, nulla nisl molestie lacus, vitae consequat orci quam a enim. Maecenas vestibulum augue id condimentum finibus. Nam pharetra porta velit quis rutrum. 
 Mauris nibh turpis, ornare nec iaculis non, bibendum vitae neque. Sed consequat pretium est sit amet laoreet. 
