@@ -19,11 +19,14 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
 
-        
+          <div class="post-container">
           {% if post.image %}
+          
           <div class="post-col-container">
             <div class="post-col1">
-              <img src="{{ site.baseurl }}/images/posts_images/{{ post.image }}" width=100%>
+              <div class="image-box">
+                <img src="{{ site.baseurl }}/images/posts_images/{{ post.image }}" width=100%>
+              </div>
             </div>
 
             <div class="post-col2">
@@ -43,6 +46,8 @@ layout: default
             <p>{{ post.excerpt }}</p>
           </div>
           {% endif %}
+          </div>
+          <!--<hr class="post-separartor"/>-->
        
 
       </li>

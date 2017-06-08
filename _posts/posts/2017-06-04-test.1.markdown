@@ -5,7 +5,7 @@ date:   2017-05-04 21:21:53 +0300
 category: posts
 image: grenoble.jpg
 ---
-![image-title-here](/images/posts_images/grenoble.jpg)
+<!--![image-title-here](/images/posts_images/grenoble.jpg)-->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis, tellus eu semper varius, nulla nisl molestie lacus, vitae consequat orci quam a enim. Maecenas vestibulum augue id condimentum finibus. Nam pharetra porta velit quis rutrum. 
 Mauris nibh turpis, ornare nec iaculis non, bibendum vitae neque. Sed consequat pretium est sit amet laoreet. 

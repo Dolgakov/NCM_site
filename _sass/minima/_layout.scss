@@ -102,12 +102,12 @@
 }
 
 .post-col1 {
-  width: 46%;
+  width: 35%;
   float: left;
 }
 
 .post-col2 {
-  width: 46%;
+  width: 55%;
   float: right;
 }
 
@@ -115,8 +115,24 @@
   // height: 300px;
 }
 
+.post-container {
+  border-bottom: 1px solid $grey-color-light;
+}
+
+// .post-col2::after {
+//   content: "";
+//   display: table;
+//   clear: both;
+// }
+
 .clear-dummy {
+  height: 1.25em;
   clear: both;
+
+}
+
+.image-box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
