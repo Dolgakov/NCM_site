@@ -4,6 +4,8 @@ name: Sergey
 surname: Vakhrushev
 post: Research Supervisor
 email: s.vakhrushev@mail.ioffe.ru
-image: Vakhrushev.png
+image: Vakhrushev.jpg
+status: senior
+order: 1
 ---
 

@@ -7,16 +7,21 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
+          {% if site.email %}
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% endif %}
+          
           <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
+            <span class="icon">{% include icon-twitter.svg %}</span>
+            Peter the Great St. Petersburg Polytechnic University, "NCM Lab". 195251, St.Petersburg, 29 Polytechnicheskaya st.
+          </li>
+          
+          
+          <li>
+            <span class="icon">{% include icon-twitter.svg %}</span>
+            +7 (812) 552-7333
+          </li>
+          
         </ul>
       </div>
 

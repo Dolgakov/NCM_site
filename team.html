@@ -4,20 +4,49 @@ title: Team
 permalink: /team/
 ---
 
-<div class="home">
-
-  <!--<h1 class="page-heading">Equipment</h1>-->
-  
-  <!--{{ content }}-->
-
-  <ul class="post-list">
-    {% for item in site.equipment %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
-        </h2>
-      </li>
+<h2>Senior members</h2>
+<div class="row-container">
+    {% assign sorted_persons = site.team | sort: "order" %}
+    {% for person in sorted_persons %}
+        {% if person.status == "senior" %}
+                <div class="card">
+                    <img src="{{ site.baseurl }}/images/team/{{ person.image }}" width=100%>
+                    <div class="person-info-container">
+                        
+                        <span style="white-space: nowrap">{{ person.name }} {{ person.surname }}</span>
+                        <span style="white-space: nowrap">{{ person.post }}</span>
+                    
+                    </div>
+                </div>
+        {% endif %}
     {% endfor %}
-  </ul>
+</div>
 
+<h2>Postgraduate students</h2>
+<div class="row-container">
+    {% for person in site.team %}
+        {% if person.status == "postgraduate" %}
+                <div class="card">
+                    <img src="{{ site.baseurl }}/images/team/{{ person.image }}" width=100%>
+                    <div class="person-info-container">
+                        <span style="white-space: nowrap">{{ person.name }} {{ person.surname }}</span>
+                        <span style="white-space: nowrap">{{ person.post }}</span>
+                    </div>
+                </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+<h2>Students</h2>
+<div class="row-container">
+    {% for person in site.team %}
+        {% if person.status == "student" %}
+                <div class="card">
+                    <img src="{{ site.baseurl }}/images/team/{{ person.image }}" width=100%>
+                    <div class="person-info-container">
+                        <span style="white-space: nowrap">{{ person.name }} {{ person.surname }}</span>
+                    </div>
+                </div>
+        {% endif %}
+    {% endfor %}
 </div>

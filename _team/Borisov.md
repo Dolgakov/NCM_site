@@ -4,5 +4,7 @@ name: Sergey
 surname: Borisov
 post: Leading engineer
 email: sergey.borisov@mail.ioffe.ru
-image: Borisov.png
+image: Borisov.jpg
+status: senior
+order: 6
 ---

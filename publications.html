@@ -1,0 +1,22 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+<h1 class="post-title"> Publications </h1>
+<ul class="post-list">
+    {% for publication in site.publications %}
+    <div class="publication_item_container">
+        <li>
+        <time datetime="{{ publication.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {{ publication.date | date: date_format }}
+        </time>
+        <a class="post-link" href="{{ publication.url | relative_url }}">{{ publication.title | escape }}</a>
+        <p> {{ publication.authors }}</p>
+        <a class="abstract" href="{{ publication.url | relative_url }}">Abstract</a>
+        <a class="source" href="{{ publication.source }}">Source</a>
+        </li>
+    </div>
+    {% endfor %}
+</ul>

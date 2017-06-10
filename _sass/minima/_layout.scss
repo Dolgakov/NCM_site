@@ -101,6 +101,24 @@
   }
 }
 
+// Publications syle
+.publication_item_container {
+  margin-bottom: $spacing-unit;
+  
+  a.source {
+    // float: left;
+    margin-left: 30px; 
+    text-decoration: underline;
+    // color: red;
+  }
+
+  a.abstract {
+    text-decoration: underline;
+  }
+}
+
+
+
 .post-col1 {
   width: 35%;
   float: left;
@@ -235,7 +253,6 @@
   display: block;
   @include relative-font-size(1.5);
 }
-
 
 
 /**
