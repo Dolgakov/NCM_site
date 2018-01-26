@@ -5,46 +5,32 @@
     <h2 class="footer-heading">{{ site.footer_title | escape }}</h2>
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          {% if site.email %}
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          {% endif %}
-          
-          <li>
-            <span class="icon">{% include icon-twitter.svg %}</span>
-            Peter the Great St. Petersburg Polytechnic University, "NCM Lab". 195251, St.Petersburg, 29 Polytechnicheskaya st.
-          </li>
-          
-          
-          <li>
-            <span class="icon">{% include icon-twitter.svg %}</span>
-            +7 (812) 552-7333
-          </li>
-          
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
+      <div class="footer-col">
         <p>{{ site.description | escape }}</p>
+        <ul class="contact-list">
+
+          {% if site.email %}
+          <li>
+            <span class="icon contact">{% include icon-mail.svg %}</span>
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          </li>
+          {% endif %}
+          
+          <li>
+            <span class="icon contact">{% include icon-location.svg %}</span>
+            St.Petersburg, 29 Polytechnicheskaya st.
+          </li>
+          
+          
+          <li>
+            <span class="icon contact">{% include icon-phone.svg %}</span>
+            +7 (812) 552-73-33
+          </li>
+          
+        </ul>
       </div>
-    </div>
+
+
 
   </div>
 

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<!-- {% if page.image %}
+    <img src="{{ site.baseurl }}/images/posts_images/{{ page.image }}" width=100%>
+{% endif %} -->
+
+<div class="post-col-container">
+    <div class="post-col1">
+        <div class="image-box">
+            <img src="{{ site.baseurl }}/images/team/{{ page.image }}" width=100%>
+        </div>
+    </div>
+
+    <div class="post-col2">
+        <p>{{page.name}} {{page.surname}}</p>
+        <p>{{page.post}}</p>
+        <p>{{page.email}}</p>
+
+        {{ content }}
+    </div>
+</div>
+<div class="clear-dummy"></div>
+
+<!-- <div class="post-content" itemprop="articleBody">
+        {{ content }}
+</div> -->

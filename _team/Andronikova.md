@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: person
 name: Daria
 surname: Andronikova
 post: Junior researcher

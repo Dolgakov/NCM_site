@@ -198,10 +198,25 @@ pre {
 /**
  * Icons
  */
-.icon > svg {
+.icon.contact > svg {
   display: inline-block;
   vertical-align: middle;
+  margin-right: $spacing-unit / 2;
+  width: $spacing-unit * 0.8;
+  height: $spacing-unit * 0.8;
+  
+  path {
+    fill: $grey-color;
+  }
+}
 
+.icon.logo > svg {
+  float: left;
+  padding: $spacing-unit / 2 0;
+  margin-right: $spacing-unit / 5;
+  width: $spacing-unit * 0.9;
+  height: $spacing-unit * 0.9;
+  
   path {
     fill: $grey-color;
   }

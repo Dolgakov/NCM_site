@@ -25,7 +25,9 @@ layout: default
           <div class="post-col-container">
             <div class="post-col1">
               <div class="image-box">
-                <img src="{{ site.baseurl }}/images/posts_images/{{ post.image }}" width=100%>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                  <img src="{{ site.baseurl }}/images/posts_images/{{ post.image }}" width=100%>
+                </a>
               </div>
             </div>
 

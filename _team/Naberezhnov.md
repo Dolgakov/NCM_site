@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: person
 name: Alex
 surname: Naberezhnov
 post: Senior researcher

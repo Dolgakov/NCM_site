@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: person
 name: Roman
 surname: Burkovskii
 post: Researcher

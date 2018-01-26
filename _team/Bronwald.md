@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: person
 name: Yuri
 surname: Bronwald
 post: Junior researcher

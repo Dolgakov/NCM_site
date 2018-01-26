@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: person
 name: Ekaterina
 surname: Koroleva
 post: Senior researcher

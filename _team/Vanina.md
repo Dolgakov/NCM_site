@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: person
 name: Polina
 surname: Vanina
 post: Junior researcher

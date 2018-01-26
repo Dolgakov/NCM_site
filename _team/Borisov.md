@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: person
 name: Sergey
 surname: Borisov
 post: Leading engineer
