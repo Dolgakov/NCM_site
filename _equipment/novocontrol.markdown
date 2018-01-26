@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "NOVOCONTROL"
+title:  "Novocontrol Broadband System"
 ---
 <!--category: equipment-->
 
-![NOVOCONTROL](http://ncm.spbstu.ru/equipment_photos/novocontrol.jpg)
+![NOVOCONTROL](/images/equipment/novocontrol.jpg)
 
 ### Application:
 

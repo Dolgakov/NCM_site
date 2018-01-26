@@ -3,61 +3,18 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">News</h1>
-  
+  <h1>About us</h1>
   <!--{{ content }}-->
-  
+  <div class="index_image">
+    <img src="{{ site.baseurl }}/images/index_photo.jpg" width=100%>
+  </div>
 
-  <ul class="post-list">
-    {% for post in site.categories.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
+  <div class="post-content">
+    {% capture my_include %}{% include about.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
 
-          <div class="post-container">
-          {% if post.image %}
-          
-          <div class="post-col-container">
-            <div class="post-col1">
-              <div class="image-box">
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                  <img src="{{ site.baseurl }}/images/posts_images/{{ post.image }}" width=100%>
-                </a>
-              </div>
-            </div>
 
-            <div class="post-col2">
-              <!--<p>
-                It is a long established fact that a reader will be distracted by the 
-                readable content of a page when looking at its layout. The point of using 
-                Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
-                as opposed to using
-              </p>-->
-              {{ post.content | strip_html | truncatewords:50}}<br>
-              <a href="{{ post.url }}">Read more...</a><br><br>
-            </div>
-          </div>
-
-          <div class="clear-dummy"></div>
-
-          {% else %}
-          <div class="post-col-container">
-            <p>{{ post.excerpt }}</p>
-          </div>
-          {% endif %}
-          </div>
-          <!--<hr class="post-separartor"/>-->
-       
-
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
 </div>

@@ -2,8 +2,10 @@ div.card {
   width: 155px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-  float: left;
-  margin-right: 4%;
+//   float: left;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 25px;
 }
 
@@ -24,6 +26,11 @@ div.card:last-child {
 }
 
 .row-container {
+    text-align: center;
+    // overflow: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-bottom: 1px solid $grey-color-light;
     margin-bottom: 25px;
 }

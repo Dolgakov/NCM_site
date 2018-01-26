@@ -6,17 +6,19 @@ layout: default
     <img src="{{ site.baseurl }}/images/posts_images/{{ page.image }}" width=100%>
 {% endif %} -->
 
-<div class="post-col-container">
-    <div class="post-col1">
+<div class="person_container">
+    <div class="photo_container">
         <div class="image-box">
             <img src="{{ site.baseurl }}/images/team/{{ page.image }}" width=100%>
         </div>
     </div>
 
-    <div class="post-col2">
-        <p>{{page.name}} {{page.surname}}</p>
-        <p>{{page.post}}</p>
-        <p>{{page.email}}</p>
+    <div class="info_container">
+        <div class="main_info_container">
+            <div>{{page.name}} {{page.surname}}</div>
+            <div>{{page.post}}</div>
+            <div>{{page.email}}</div>
+        </div>
 
         {{ content }}
     </div>
