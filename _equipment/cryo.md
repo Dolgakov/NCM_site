@@ -1,13 +1,8 @@
 ---
-layout: post
+layout: equipment
 title:  "Cryogenic Microscope System"
+image: AFM.jpg
 ---
-<!--category: equipment-->
-
-![AFM](/images/equipment/AFM.jpg)
-
-### Application:
-
 The systems is a universal microscopic complex for surfaces, nanostructures and nanocomposite materials investigations at low temperature (up to helium) and strong magnetic fields. The systems accomplished as ready to use, allows to conduct unique researches of elastic, dielectric magnetic and superconducting properties of nanocomposite materials.
 
 ### Specification:

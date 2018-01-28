@@ -13,8 +13,10 @@ permalink: /publications/
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {{ publication.date | date: date_format }}
         </time>
-        <a class="post-link" href="{{ publication.url | relative_url }}">{{ publication.title | escape }}</a>
-        <p> {{ publication.authors }}</p>
+        <h3>
+            <a href="{{ publication.url | relative_url }}">{{ publication.title | escape }}</a>
+        </h3>
+        <div> {{ publication.authors }}</div>
         <a class="source" href="{{ publication.source }}">Source</a>
         {% if publication.content %}
             <a class="abstract" href="{{ publication.url | relative_url }}">Abstract</a>

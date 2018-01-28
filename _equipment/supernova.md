@@ -1,9 +1,8 @@
 ---
-layout: post
+layout: equipment
 title: "SuperNova diffractometer"
+image: SuperNova.jpg
 ---
-![SuperNova](/images/equipment/SuperNova.jpg)
-
 The SuperNova builds upon the success of Oxford Diffraction's Gemini, the world's first dual wavelength system. The SuperNova is the ideal diffractometer for both the modern crystallographic research and the leading analytical service laboratories.
 
 ### The SuperNova includes:

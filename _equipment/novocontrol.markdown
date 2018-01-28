@@ -1,13 +1,8 @@
 ---
-layout: post
+layout: equipment
 title:  "Novocontrol Broadband System"
+image: novocontrol.jpg
 ---
-<!--category: equipment-->
-
-![NOVOCONTROL](/images/equipment/novocontrol.jpg)
-
-### Application:
-
 Ultra broad band dielectric and conduction spectroscopy with temperature control system and a system of visualization and data treatment. Complex system of ‘ready-to-use” type NOVOCONTROL CONCEPT-80 includes low and high frequency spectrometer BDS-80 (from 3 μHz - 20 MHz ) for dielectric, electrochemical impedance and conduction spectroscopy developed especially for materials investigation in combination with the QUATRO Cryosystem (-160 °C ... 400 °C) and a program complex for visualization and treatment of data.
 
 ### Technical feature of BDS-80:
@@ -21,3 +16,4 @@ Ultra broad band dielectric and conduction spectroscopy with temperature control
 - Includes sample cell and a special high voltage sample cell
 - Supports up to 157 point during high voltage measurements per second (impedance measurements) through GPIB port
 - Automated self-calibration and user diagnostic
+

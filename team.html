@@ -3,7 +3,7 @@ layout: default
 title: Staff
 permalink: /staff/
 ---
-
+<h1 class="post-title"> Staff </h1>
 <h2>Senior members</h2>
 <div class="row-container">
     {% assign sorted_persons = site.team | sort: "order" %}
@@ -29,11 +29,13 @@ permalink: /staff/
     {% for person in site.team %}
         {% if person.status == "postgraduate" %}
                 <div class="card">
-                    <img src="{{ site.baseurl }}/images/team/{{ person.image }}" width=100%>
-                    <div class="person-info-container">
-                        <span style="white-space: nowrap">{{ person.name }} {{ person.surname }}</span>
-                        <span style="white-space: nowrap">{{ person.post }}</span>
-                    </div>
+                    <a class="post-link" href="{{ person.url | relative_url }}">
+                        <img src="{{ site.baseurl }}/images/team/{{ person.image }}" width=100%>
+                        <div class="person-info-container">
+                            <span style="white-space: nowrap">{{ person.name }} {{ person.surname }}</span>
+                            <span style="white-space: nowrap">{{ person.post }}</span>
+                        </div>
+                    </a>
                 </div>
         {% endif %}
     {% endfor %}
@@ -44,10 +46,12 @@ permalink: /staff/
     {% for person in site.team %}
         {% if person.status == "student" %}
                 <div class="card">
-                    <img src="{{ site.baseurl }}/images/team/{{ person.image }}" width=100%>
-                    <div class="person-info-container">
-                        <span style="white-space: nowrap">{{ person.name }} {{ person.surname }}</span>
-                    </div>
+                    <a class="post-link" href="{{ person.url | relative_url }}">
+                        <img src="{{ site.baseurl }}/images/team/{{ person.image }}" width=100%>
+                        <div class="person-info-container">
+                            <span style="white-space: nowrap">{{ person.name }} {{ person.surname }}</span>
+                        </div>
+                    </a>
                 </div>
         {% endif %}
     {% endfor %}
